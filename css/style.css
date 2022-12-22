@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(246, 245, 245)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox {
+    /* border: 3px solid blue; */
+    /* display: flex; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 100px;
+    margin: 5px 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    margin: 0px 3rem;
+    font-size: 1.5rem;
+}
+
+ul li:hover {
+    color: rgb(101, 168, 0);
+    cursor: pointer;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+#list-items {
+    text-align: right;
+}
+
+.imgbox {
+    /* border: 2px solid black; */
+    display: flex;
+    position: absolute;
+    right: 4rem;
+    top: 10rem;
+    height: 70vh;
+    width: 40vw;
+    margin: 5px 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    width: 45vw;
+    position: relative;
+    top: 5rem;
+    left: 4rem;
+    background-image: url(https://img.lovepik.com/free-png/20210922/lovepik-food-border-png-image_401125808_wh1200.png);
+    background-repeat: no-repeat;
+    background-size: 45vw 70vh;
+    border-radius: 10px;
+
+    /* background-size:cover ; */
+}
+
+.imgbox img {
+    height: 70vh;
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.buttonbox {
+    margin: 0px 50px;
+    /* padding: 5px 5px; */
+    position: relative;
+    bottom: 70px;
+    left: 48px;
+
+
+}
+
+span {
+    font-family: 'Lobster', cursive;
+    margin: 60px 0px 10px 96px;
+    font-size: 2rem;
+    color: rgb(88, 88, 88);
+}
+
+.description {
+    margin: 1px 0px 32px 96px;
+    font-size: 2.5rem;
+}
+
+button {
+    padding: 12px 12px;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(243, 164, 38);
+    color: rgb(0, 0, 0);
+}
+
+.navbar img {
+    width: 7rem;
+    height: 6rem;
+    position: absolute;
+    left: 3rem;
+}
+
+.fa-brands {
+    font-size: 2.5rem;
+    margin: 0px 1rem;
+    position: relative;
+    left: 10rem;
+}
+
+.fa-facebook-f:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    color: rgb(46, 176, 240);
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    color: rgb(246, 95, 120);
+    cursor: pointer;
+
+}
